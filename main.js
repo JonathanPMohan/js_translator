@@ -54,7 +54,7 @@ const spanishStringBuilder = (inputWords) => {
     let newString = '';
     for(let i = 0; i< inputWords.length; i++) {
         let spanishWord = spanish[inputWords[i]];
-        newString += `${spanishWord}`
+        newString += `${spanishWord} `
     };
     return newString;
 }
@@ -77,7 +77,7 @@ const spanishButton = document.getElementById('spanish');
         let newString = '';
         for(let i = 0; i< inputWords.length; i++) {
             let frenchWord = french[inputWords[i]];
-            newString += `${frenchWord}`
+            newString += `${frenchWord} `
         };
         return newString;
     }
@@ -100,7 +100,7 @@ const spanishButton = document.getElementById('spanish');
             let newString = '';
             for(let i = 0; i< inputWords.length; i++) {
                 let germanWord = german[inputWords[i]];
-                newString += `${germanWord}`
+                newString += `${germanWord} `
             };
             return newString;
         }
@@ -123,7 +123,7 @@ const spanishButton = document.getElementById('spanish');
                 let newString = '';
                 for(let i = 0; i< inputWords.length; i++) {
                     let zuluWord = zulu[inputWords[i]];
-                    newString += `${zuluWord}`
+                    newString += `${zuluWord} `
                 };
                 return newString;
             }
